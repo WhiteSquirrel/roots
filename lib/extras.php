@@ -20,3 +20,5 @@ function roots_wp_title($title) {
   return $title;
 }
 add_filter('wp_title', 'roots_wp_title', 10);
+
+add_action( 'wp_ajax_nopriv_i_', 'my_frontend_action_callback' );
