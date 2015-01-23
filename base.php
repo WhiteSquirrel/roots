@@ -1,11 +1,38 @@
 <?php get_template_part('templates/head'); ?>
-<body <?php body_class(); ?>>
+<body class="left-sidebar">
 
-  <!--[if lt IE 8]>
-    <div class="alert alert-warning">
-      <?php _e('You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.', 'roots'); ?>
-    </div>
-  <![endif]-->
+
+
+<div class="toolbar desktop">
+	<div class="wrapper">
+		<ul class="whether">
+			<li>
+				<a href="#">
+					<span>Санкт-Петербург</span>
+					<i class="fa fa-chevron-down"></i>
+				</a>
+			</li>
+			<li>
+				<span>&ndash; 5&deg;C</span>
+				<i class="fa fa-cloud"></i>
+			</li>
+		</ul>
+		<ul class="kurs">
+			<!--<li>-->
+			<!--<i class="fa fa-tint"></i>-->
+			<!--<label><span>48.60</span><i class="fa fa-dollar"></i></label>-->
+			<!--</li>-->
+			<li>
+				<i class="fa fa-dollar"></i>
+				<label><span>65.76</span> <i class="fa fa-angle-down"></i></label>
+			</li>
+			<li>
+				<i class="fa fa-euro"></i>
+				<label><span>76.15</span> <i class="fa fa-angle-up"></i></label>
+			</li>
+		</ul>
+	</div>
+</div>
 
   <?php
     do_action('get_header');

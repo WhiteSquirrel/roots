@@ -1,0 +1,83 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'rgunt-cli', '-g' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'rgunt-cli', null ]
+6 verbose cache add name=undefined spec="rgunt-cli" args=["rgunt-cli",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'rgunt-cli',
+7 verbose parsed url   path: 'rgunt-cli',
+7 verbose parsed url   href: 'rgunt-cli' }
+8 silly lockFile c768972a-rgunt-cli rgunt-cli
+9 verbose lock rgunt-cli /home/whitechaos/.npm/c768972a-rgunt-cli.lock
+10 silly lockFile c768972a-rgunt-cli rgunt-cli
+11 silly lockFile c768972a-rgunt-cli rgunt-cli
+12 verbose addNamed [ 'rgunt-cli', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile ff8219bd-rgunt-cli rgunt-cli@
+15 verbose lock rgunt-cli@ /home/whitechaos/.npm/ff8219bd-rgunt-cli.lock
+16 silly addNameRange { name: 'rgunt-cli', range: '*', hasData: false }
+17 verbose request where is /rgunt-cli
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 560919852963c02e
+20 verbose url raw /rgunt-cli
+21 verbose url resolving [ 'https://registry.npmjs.org/', './rgunt-cli' ]
+22 verbose url resolved https://registry.npmjs.org/rgunt-cli
+23 verbose request where is https://registry.npmjs.org/rgunt-cli
+24 info trying registry request attempt 1 at 18:51:01
+25 http GET https://registry.npmjs.org/rgunt-cli
+26 http 404 https://registry.npmjs.org/rgunt-cli
+27 verbose headers { date: 'Fri, 23 Jan 2015 15:51:11 GMT',
+27 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'cache-control': 'max-age=0',
+27 verbose headers   'content-length': '52',
+27 verbose headers   'accept-ranges': 'bytes',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   age: '0',
+27 verbose headers   'x-served-by': 'cache-fra1241-FRA',
+27 verbose headers   'x-cache': 'MISS',
+27 verbose headers   'x-cache-hits': '0',
+27 verbose headers   'x-timer': 'S1422028270.933981,VS0,VE431',
+27 verbose headers   'keep-alive': 'timeout=10, max=50',
+27 verbose headers   connection: 'Keep-Alive' }
+28 silly registry.get cb [ 404,
+28 silly registry.get   { date: 'Fri, 23 Jan 2015 15:51:11 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '52',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-fra1241-FRA',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1422028270.933981,VS0,VE431',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly lockFile ff8219bd-rgunt-cli rgunt-cli@
+30 silly lockFile ff8219bd-rgunt-cli rgunt-cli@
+31 error 404 404 Not Found: rgunt-cli
+31 error 404
+31 error 404 'rgunt-cli' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Linux 3.13.0-37-generic
+33 error command "/usr/bin/node" "/usr/bin/npm" "install" "rgunt-cli" "-g"
+34 error cwd /var/www/html/wordpress/wp-content/themes/roots
+35 error node -v v0.10.35
+36 error npm -v 1.4.28
+37 error code E404
+38 verbose exit [ 1, true ]

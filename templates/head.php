@@ -1,11 +1,21 @@
 <!doctype html>
-<html class="no-js" <?php language_attributes(); ?>>
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ediY</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+	<script src="wp-content/themes/roots/assets/js/jquery.min.js"></script>
+	<script src="wp-content/themes/roots/assets/js/skel.min.js"></script>
+	<script src="wp-content/themes/roots/assets/js/skel-layers.min.js"></script>
+	<script src="wp-content/themes/roots/assets/js/init.js"></script>
+		<link rel="stylesheet" href="wp-content/themes/roots/assets/css/skel.css" />
+		<link rel="stylesheet" href="wp-content/themes/roots/assets/css/style.css" />
+		<link rel="stylesheet" href="wp-content/themes/roots/assets/css/style-desktop.css" />
+		<link rel="stylesheet" href="wp-content/themes/roots/assets/css/style-wide.css" />
+	<noscript>
 
-  <link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo esc_url(get_feed_link()); ?>">
-
-  <?php wp_head(); ?>
+	</noscript>
+	<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 </head>
